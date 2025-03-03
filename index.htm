@@ -1,38 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ownerpv Project</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Project</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="background"></div>
-
-    <header>
-        <h1>ownerpv</h1>
-    </header>
-
-    <section class="info">
-        <h2>Project Information</h2>
-        <p><strong>Author:</strong> ownerpv</p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/ownerpv" target="_blank">github.com/ownerpv</a></p>
-        <p><strong>Telegram:</strong> <a href="https://ownerpc.t.me" target="_blank">ownerpc.t.me</a></p>
-        <p><strong>Date:</strong> 2025-03-03</p>
-    </section>
-
-    <section class="notice">
-        <h2>Notice</h2>
-        <p>This project is authored by <strong>ownerpv</strong>. Do not modify or remove the author's name.</p>
-    </section>
-
-    <div class="buttons">
-        <a href="https://github.com/ownerpv" class="btn">GitHub Profile</a>
-        <a href="https://ownerpc.t.me" class="btn">Contact Me</a>
+  <div class="hero">
+    <div class="content">
+      <p class="tagline">Scroll down for an amazing experience</p>
+      <div class="buttons">
+        <a class="btn" href="https://github.com/ownerpv" target="_blank">GitHub</a>
+        <a class="btn" href="https://ownerpc.t.me" target="_blank">Contact</a>
+      </div>
     </div>
+  </div>
 
-    <script src="script.js"></script>
+  <section class="info scroll-section">
+    <div class="info-content">
+      <h2>Author Information</h2>
+      <p>This project is authored by <strong>ownerpv</strong>. Please do not modify or remove the author's name.</p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/ownerpv" target="_blank">github.com/ownerpv</a></p>
+      <p><strong>Telegram:</strong> <a href="https://ownerpc.t.me" target="_blank">ownerpc.t.me</a></p>
+      <p><strong>Date:</strong> 2025-03-03</p>
+      <p>Additional details can be found here.</p>
+    </div>
+  </section>
 
+  <script>
+    // Scroll reveal using IntersectionObserver
+    const scrollSections = document.querySelectorAll('.scroll-section');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.2 });
+
+    scrollSections.forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+  
 </body>
 </html>
