@@ -1,15 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const contentSection = document.querySelector(".content");
-
-    function checkScroll() {
-        const scrollPosition = window.scrollY + window.innerHeight;
-        const contentPosition = contentSection.offsetTop;
-
-        if (scrollPosition > contentPosition + 100) {
-            contentSection.classList.add("visible");
-        }
-    }
-
-    window.addEventListener("scroll", checkScroll);
-    checkScroll();
+document.addEventListener("scroll", () => {
+    let scrollPosition = window.scrollY;
+    document.body.style.background = `rgb(${50 + scrollPosition / 5}, ${0 + scrollPosition / 10}, ${100 + scrollPosition / 5})`;
 });
