@@ -1,58 +1,94 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #a5da7d;
-    color: #333;
-    text-align: center;
     margin: 0;
     padding: 0;
-}
-
-header {
-    background: #ad75d8;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
     color: white;
-    padding: 20px;
-    font-size: 24px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+    background: linear-gradient(45deg, #2c003e, #1b0033, #0d0026);
+    background-size: 400% 400%;
+    animation: galaxyBG 15s infinite alternate;
 }
 
-section {
-    margin: 20px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 600px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+/* انیمیشن تغییر رنگ بک‌گراند */
+@keyframes galaxyBG {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 100%; }
 }
 
-.notice {
-    background-color: #f8f8f8;
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(173,117,216,0.4) 10%, transparent 80%);
+    position: relative;
 }
 
-a {
-    color: #ad75d8;
-    text-decoration: none;
-    font-weight: bold;
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
 }
 
-.buttons {
-    margin-top: 30px;
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    opacity: 0.8;
 }
 
 .btn {
     display: inline-block;
-    margin: 10px;
+    margin-top: 20px;
     padding: 12px 24px;
-    background: #ad75d8;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    border-radius: 30px;
     color: white;
-    border-radius: 25px;
     text-decoration: none;
-    font-size: 16px;
-    transition: 0.3s;
-    box-shadow: 0 5px 15px rgba(173, 117, 216, 0.4);
+    transition: 0.4s;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
 }
 
 .btn:hover {
-    background: #8e5bb3;
-    transform: scale(1.05);
+    background: white;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
+}
+
+/* افکت پارالاکس هنگام اسکرول */
+.content {
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 0.8s ease-in-out;
+}
+
+.content.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* انیمیشن ستاره‌ها */
+@keyframes twinkle {
+    0% { opacity: 0.3; }
+    50% { opacity: 1; }
+    100% { opacity: 0.3; }
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    opacity: 0.3;
+    animation: twinkle 3s infinite;
 }
