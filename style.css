@@ -34,25 +34,6 @@ body {
   margin-bottom: 30px;
 }
 
-/* دکمه‌های شناور */
-.buttons {
-  display: inline-flex;
-  gap: 20px;
-}
-.btn {
-  padding: 12px 28px;
-  background: rgba(255, 255, 255, 0.15);
-  color: #fff;
-  text-decoration: none;
-  border-radius: 30px;
-  transition: all 0.3s ease;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
-}
-.btn:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
-}
-
 /* بخش اطلاعات */
 .info {
   padding: 60px 20px;
@@ -63,6 +44,11 @@ body {
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
+}
+.info h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #d8aaff;
 }
 .info a {
   color: #d8aaff;
