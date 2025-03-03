@@ -1,60 +1,84 @@
-/* پایه */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
   overflow-x: hidden;
 }
 
-/* دکمه‌ها در بالای صفحه */
-.buttons-top {
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #000, #4B0082);
   display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
+  transition: background 0.5s ease;
+  position: relative;
+}
+
+.hero .overlay {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: #1a1a1a;
+}
+
+.details .info,
+.details .buttons {
+  flex: 1 1 300px;
+  padding: 20px;
+}
+
+.details .info p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.details .info a {
+  color: #9370DB;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.details .info a:hover {
+  color: #BA55D3;
 }
 
 .btn {
-  padding: 12px 28px;
-  background: rgba(255, 255, 255, 0.15);
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 30px;
+  background: linear-gradient(45deg, #000, #4B0082);
   color: #fff;
-  text-decoration: none;
+  border: none;
   border-radius: 30px;
-  transition: all 0.3s ease;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .btn:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
-}
-
-/* بخش اطلاعات نویسنده */
-.info {
-  padding: 60px 20px;
-  background-color: #110022;
-  color: #fff;
-}
-.info-content {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
-}
-.info a {
-  color: #d8aaff;
-  text-decoration: underline;
-}
-
-/* افکت اسکرول */
-.scroll-section {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-.scroll-section.visible {
-  opacity: 1;
-  transform: translateY(0);
+  box-shadow: 0 10px 20px rgba(75, 0, 130, 0.5);
 }
