@@ -1,76 +1,94 @@
+/* تنظیمات اولیه */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
-    color: white;
-    background: linear-gradient(180deg, #0a0f24, #1b1f46, #2e2b64);
-    background-attachment: fixed;
-    transition: background 0.5s ease-in-out;
+    color: #fff;
+    overflow-x: hidden;
+    background: linear-gradient(45deg, #210535, #4B0082, #1C1C3D);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
 }
 
+/* انیمیشن تغییر رنگ بک‌گراند */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* استایل هدر */
 .hero {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    background: url('https://source.unsplash.com/1600x900/?galaxy,stars,space') no-repeat center center/cover;
+    align-items: center;
+    background: url('https://source.unsplash.com/1600x900/?galaxy,stars') no-repeat center/cover;
     box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 2s ease-in-out;
 }
 
 .hero h1 {
     font-size: 3rem;
+    font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    animation: glow 2s infinite alternate;
+    background: linear-gradient(45deg, #ff00ff, #8a2be2, #9400d3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hero p {
     font-size: 1.2rem;
-    opacity: 0.8;
+    margin-top: 10px;
 }
 
-@keyframes glow {
-    from { text-shadow: 0 0 10px #fff; }
-    to { text-shadow: 0 0 20px #ff00ff, 0 0 30px #ff1493; }
-}
-
+/* استایل بخش اطلاعات */
 .content {
-    padding: 100px 20px;
+    padding: 50px 20px;
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    margin: 50px auto;
+    border-radius: 15px;
     width: 80%;
-    max-width: 600px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
-    transition: transform 0.3s ease-in-out;
+    max-width: 800px;
+    margin: auto;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 0.8s ease-out;
 }
 
-.content:hover {
-    transform: scale(1.05);
+.content.visible {
+    transform: translateY(0);
+    opacity: 1;
 }
 
+/* استایل دکمه‌ها */
 .buttons {
-    margin: 50px 0;
+    margin-top: 30px;
 }
 
 .btn {
     display: inline-block;
     margin: 10px;
-    padding: 15px 30px;
-    background: linear-gradient(45deg, #ff00ff, #ff1493);
+    padding: 12px 24px;
+    background: linear-gradient(45deg, #ff00ff, #8a2be2);
     color: white;
-    border-radius: 30px;
+    border-radius: 25px;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
-    box-shadow: 0 5px 15px rgba(255, 0, 255, 0.5);
+    font-size: 16px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(138, 43, 226, 0.4);
 }
 
 .btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0 8px 25px rgba(255, 0, 255, 0.8);
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #8a2be2, #ff00ff);
+}
+
+/* انیمیشن fade in */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
