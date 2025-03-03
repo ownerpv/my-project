@@ -1,33 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modern Project</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About ownerpv</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styles */
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            background: linear-gradient(45deg, #6a0dad, #000000);
+            animation: gradientShift 8s ease infinite;
+            background-size: 400% 400%;
+            transition: background 1s ease;
+        }
+
+        /* Gradient Animation */
+        @keyframes gradientShift {
+            0% { background: linear-gradient(45deg, #6a0dad, #000000); }
+            50% { background: linear-gradient(45deg, #8a2be2, #000000); }
+            100% { background: linear-gradient(45deg, #9b30ff, #000000); }
+        }
+
+        /* Container for content */
+        .container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(0, 0, 0, 0.7);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #FFD700;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #FFD700;
+        }
+
+        a {
+            color: #FFD700;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #ff0;
+        }
+
+        /* Footer Text */
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #FFD700;
+        }
+        
+        .notice {
+            font-size: 16px;
+            margin-top: 20px;
+            color: #FFD700;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 
-  <section class="hero">
-    <div class="overlay">
-      <h2>Experience the Dynamic Effect</h2>
-      <p>Scroll down to reveal more</p>
-    </div>
-  </section>
+<div class="container">
+    <h1>Project by ownerpv</h1>
+    <p><strong>Author:</strong> ownerpv</p>
+    <p><strong>Telegram:</strong> <a href="https://ownerpc.t.me" target="_blank">ownerpc.t.me</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/ownerpv" target="_blank">github.com/ownerpv</a></p>
+    <p><strong>Date:</strong> 2025-03-04</p>
 
-  <section class="details">
-    <div class="info">
-      <p><strong>Author:</strong> ownerpv - Do not modify the author's name.</p>
-      <p><strong>GitHub:</strong> <a href="https://github.com/ownerpv" target="_blank">github.com/ownerpv</a></p>
-      <p><strong>Telegram:</strong> <a href="https://ownerpc.t.me" target="_blank">ownerpc.t.me</a></p>
-      <p><strong>Date:</strong> 2025-03-03</p>
+    <div class="notice">
+        <p>Notice: If you use this code, please credit the author and keep the author's name intact to respect the intellectual property.</p>
     </div>
-    <div class="buttons">
-      <a href="https://github.com/ownerpv" class="btn">GitHub Profile</a>
-      <a href="https://ownerpc.t.me" class="btn">Contact Me</a>
+    
+    <div class="footer">
+        <p>&copy; 2025 ownerpv. All rights reserved.</p>
     </div>
-  </section>
+</div>
 
-  <script src="script.js"></script>
 </body>
 </html>
