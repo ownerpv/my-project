@@ -1,94 +1,76 @@
 body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
     text-align: center;
     color: white;
-    overflow-x: hidden;
-    background: linear-gradient(45deg, #2c003e, #1b0033, #0d0026);
-    background-size: 400% 400%;
-    animation: galaxyBG 15s infinite alternate;
-}
-
-/* انیمیشن تغییر رنگ بک‌گراند */
-@keyframes galaxyBG {
-    0% { background-position: 0% 0%; }
-    100% { background-position: 100% 100%; }
+    background: linear-gradient(180deg, #0a0f24, #1b1f46, #2e2b64);
+    background-attachment: fixed;
+    transition: background 0.5s ease-in-out;
 }
 
 .hero {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background: radial-gradient(circle, rgba(173,117,216,0.4) 10%, transparent 80%);
-    position: relative;
+    justify-content: center;
+    background: url('https://source.unsplash.com/1600x900/?galaxy,stars,space') no-repeat center center/cover;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
 }
 
 .hero h1 {
     font-size: 3rem;
-    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    animation: glow 2s infinite alternate;
 }
 
 .hero p {
     font-size: 1.2rem;
-    margin-top: 10px;
     opacity: 0.8;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 10px #fff; }
+    to { text-shadow: 0 0 20px #ff00ff, 0 0 30px #ff1493; }
+}
+
+.content {
+    padding: 100px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.content:hover {
+    transform: scale(1.05);
+}
+
+.buttons {
+    margin: 50px 0;
 }
 
 .btn {
     display: inline-block;
-    margin-top: 20px;
-    padding: 12px 24px;
-    font-size: 18px;
-    background: rgba(255, 255, 255, 0.2);
-    border: 2px solid white;
-    border-radius: 30px;
+    margin: 10px;
+    padding: 15px 30px;
+    background: linear-gradient(45deg, #ff00ff, #ff1493);
     color: white;
+    border-radius: 30px;
     text-decoration: none;
-    transition: 0.4s;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+    box-shadow: 0 5px 15px rgba(255, 0, 255, 0.5);
 }
 
 .btn:hover {
-    background: white;
-    color: black;
     transform: scale(1.1);
-    box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
-}
-
-/* افکت پارالاکس هنگام اسکرول */
-.content {
-    padding: 50px;
-    background: rgba(255, 255, 255, 0.1);
-    margin: 50px auto;
-    width: 80%;
-    max-width: 600px;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-    transform: translateY(50px);
-    opacity: 0;
-    transition: all 0.8s ease-in-out;
-}
-
-.content.show {
-    transform: translateY(0);
-    opacity: 1;
-}
-
-/* انیمیشن ستاره‌ها */
-@keyframes twinkle {
-    0% { opacity: 0.3; }
-    50% { opacity: 1; }
-    100% { opacity: 0.3; }
-}
-
-.star {
-    position: absolute;
-    width: 2px;
-    height: 2px;
-    background: white;
-    opacity: 0.3;
-    animation: twinkle 3s infinite;
+    box-shadow: 0 8px 25px rgba(255, 0, 255, 0.8);
 }
