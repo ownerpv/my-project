@@ -1,4 +1,6 @@
-document.addEventListener("scroll", () => {
-    let scrollPosition = window.scrollY;
-    document.body.style.background = `rgb(${50 + scrollPosition / 5}, ${0 + scrollPosition / 10}, ${100 + scrollPosition / 5})`;
+window.addEventListener('scroll', () => {
+  const scrollY = window.scrollY;
+  const hero = document.querySelector('.hero');
+  const angle = 135 + (scrollY / window.innerHeight) * 45;
+  hero.style.background = `linear-gradient(${angle}deg, #000, #4B0082)`;
 });
