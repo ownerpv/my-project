@@ -1,41 +1,51 @@
-# 📌 Info File and Bot
+# 🎨 Info File and Bot  
+🚀 **A modern and interactive bot setup guide**  
 
 ---
 
-## ⚠️ Usage Disclaimer
-Please give proper credit to the original author when using this project. Unauthorized distribution without attribution is discouraged.
+## ⚠️ Respect the Author's Rights  
+Using this project? **Give credit to the original author!** Unauthorized distribution without proper attribution is discouraged.  
 
 ---
 
-## 🚀 Setup Guide
+## 📌 Setup Guide  
 
-### 1️⃣ Get Your Bot Token
-Obtain your bot token from **[BotFather](https://t.me/BotFather)** and insert it into **line 11** of your bot's code.
+### 🛠 Step 1: Get Your Bot Token  
+🔹 Open **[BotFather](https://t.me/BotFather)** on Telegram.  
+🔹 Create a new bot and **copy your bot token**.  
+🔹 Paste the token in **line 11** of the bot's code.  
 
-### 2️⃣ Configure Bot Settings
-Adjust bot settings via **[BotFather](https://t.me/BotFather)**:
-- Enable **inline mode** in **Bot Settings**.
+### ⚙️ Step 2: Configure Your Bot  
+✅ Go to **[BotFather](https://t.me/BotFather)** again.  
+✅ Open **Bot Settings** and enable **inline mode**.  
 
-### 3️⃣ Upload & Deploy
-- Upload the bot files to your hosting service.
-- Set up **webhook** for proper functionality.
+### 🚀 Step 3: Deploy the Bot  
+📤 Upload your bot’s files to a hosting service.  
+🔗 Set up **webhook** to activate the bot.  
 
 ---
 
-## 📅 Release Date
+## 📅 Release Date  
 🗓 **March 4, 2025**  
 
-## ✍️ Author
+## ✍️ Author  
 👤 **[OwnerPC](https://t.me/ownerpc)**  
 
-## 🌐 Project URL
-🔗 **[Project Page](http://ownerpv.github.io/my-project)**  
+## 🌐 Project URL  
+🔗 **[Visit Project](http://ownerpv.github.io/my-project)**  
 
 ---
 
-## 🎨 Styled Buttons
+## 🎨 Styled Buttons  
 
-[![BotFather](https://img.shields.io/badge/BotFather-Start-blue?style=for-the-badge&logo=telegram)](https://t.me/BotFather)  
-[![Project Link](https://img.shields.io/badge/Project_Page-Visit-green?style=for-the-badge&logo=github)](http://ownerpv.github.io/my-project)  
-[![Author](https://img.shields.io/badge/Contact_Author-Message-purple?style=for-the-badge&logo=telegram)](https://t.me/ownerpc)  
-
+<p align="center">
+  <a href="https://t.me/BotFather">
+    <img src="https://img.shields.io/badge/Get%20Token-Start-blue?style=for-the-badge&logo=telegram">
+  </a>
+  <a href="http://ownerpv.github.io/my-project">
+    <img src="https://img.shields.io/badge/Visit%20Project-Open-green?style=for-the-badge&logo=github">
+  </a>
+  <a href="https://t.me/ownerpc">
+    <img src="https://img.shields.io/badge/Contact%20Author-Message-purple?style=for-the-badge&logo=telegram">
+  </a>
+</p>
