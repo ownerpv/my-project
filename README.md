@@ -46,14 +46,24 @@
 
 ---
 
+## 🎨 Quick Links  
+
+<p align="center">
+  <a href="https://t.me/BotFather">
+    <img src="https://img.shields.io/badge/Get_Token-BotFather-blue?style=for-the-badge&logo=telegram">
+  </a>  
+  <a href="http://ownerpv.github.io/my-project">
+    <img src="https://img.shields.io/badge/Visit_Project-GitHub-green?style=for-the-badge&logo=github">
+  </a>  
+  <a href="https://t.me/ownerpc">
+    <img src="https://img.shields.io/badge/Contact_Author-Telegram-purple?style=for-the-badge&logo=telegram">
+  </a>  
+</p>
+
+---
+
 ## 🔎 SEO & Keywords  
 
-> **Optimized for better visibility in search results**  
-
-🔹 **Keywords:**  
-`Telegram Bot`, `Glass Buttons`, `Inline Buttons`, `BotFather`, `Telegram API`, `Webhook`, `Custom Keyboard`, `Telegram Automation`, `Inline Keyboards`, `Telegram Developer`, `Bot API`  
-
-🔹 **Meta Tags (For Indexing)**  
 ```html
 <meta name="description" content="A Telegram bot for creating inline glass buttons. Easily generate stylish buttons for your bot with this powerful tool.">
 <meta name="keywords" content="Telegram Bot, Inline Buttons, Glass Buttons, Telegram API, BotFather, Webhook, Telegram Automation, Custom Keyboard">
