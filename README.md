@@ -72,36 +72,3 @@ With just a few lines of code, you can integrate **interactive buttons** into yo
 ✔️ Compatible with **Telegram API**  
 ✔️ Supports **Webhook setup**  
 ✔️ Built for **fast deployment**  
-
----
-
-## 🔍 Optimized SEO Keywords  
-
-- **Glass Button Telegram Bot**  
-- **Telegram Bot Button Glass**  
-- **Inline Button Telegram Bot**  
-- **Source Code Telegram Bot**  
-- **Best Telegram Bot with Buttons**  
-- **Open Source Telegram Bot**  
-- **BotFather API Custom Keyboard**  
-- **GitHub Telegram Bot Project**  
-
----
-
-```html
-<!-- Hidden SEO Meta Tags -->
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Open-source Telegram bot for creating interactive Glass Buttons. Fully customizable and easy to integrate with Telegram API.">
-  <meta name="keywords" content="Glass Button Telegram Bot, Telegram Bot Button Glass, Inline Button Telegram Bot, Source Code Telegram Bot, Open Source Telegram Bot, Telegram API Webhook, BotFather Custom Keyboard">
-  <meta name="author" content="OwnerPC">
-  <meta property="og:title" content="Telegram Bot - Glass Buttons">
-  <meta property="og:description" content="Create stylish inline buttons with this powerful Telegram bot.">
-  <meta property="og:url" content="http://ownerpv.github.io">
-  <meta property="og:image" content="http://ownerpv.github.io/assets/preview.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Telegram Bot - Glass Buttons">
-  <meta name="twitter:description" content="Easily create inline glass buttons for Telegram bots.">
-  <meta name="twitter:image" content="http://ownerpv.github.io/assets/preview.png">
-</head>
