@@ -23,7 +23,7 @@
 ## 🚀 Setup Guide  
 
 ### 1️⃣ Get Your Bot Token  
-🎯 Obtain your bot token from **[BotFather](https://t.me/BotFather)** and insert it into **line 11** of your bot's code.  
+🎯 Obtain your bot token from **[BotFather](https://t.me/BotFather)** and insert it into **line 11** of your bot's source code.  
 
 ### 2️⃣ Configure Bot Settings  
 ⚙️ Adjust bot settings via **[BotFather](https://t.me/BotFather)**:  
@@ -62,17 +62,46 @@
 
 ---
 
-## 🔎 SEO & Keywords  
+## 🔎 About This Project  
+
+This is an **open-source Telegram bot** that allows users to create **Glass Buttons** with ease.  
+With just a few lines of code, you can integrate **interactive buttons** into your Telegram bot, making it more dynamic and user-friendly.  
+
+🔹 **Features:**  
+✔️ Fully customizable inline buttons  
+✔️ Compatible with **Telegram API**  
+✔️ Supports **Webhook setup**  
+✔️ Built for **fast deployment**  
+
+---
+
+## 🔍 Optimized SEO Keywords  
+
+- **Glass Button Telegram Bot**  
+- **Telegram Bot Button Glass**  
+- **Inline Button Telegram Bot**  
+- **Source Code Telegram Bot**  
+- **Best Telegram Bot with Buttons**  
+- **Open Source Telegram Bot**  
+- **BotFather API Custom Keyboard**  
+- **GitHub Telegram Bot Project**  
+
+---
 
 ```html
-<meta name="description" content="A Telegram bot for creating inline glass buttons. Easily generate stylish buttons for your bot with this powerful tool.">
-<meta name="keywords" content="Telegram Bot, Inline Buttons, Glass Buttons, Telegram API, BotFather, Webhook, Telegram Automation, Custom Keyboard">
-<meta name="author" content="OwnerPC">
-<meta property="og:title" content="Telegram Bot - Glass Buttons">
-<meta property="og:description" content="Create stylish inline buttons with this powerful Telegram bot.">
-<meta property="og:url" content="http://ownerpv.github.io">
-<meta property="og:image" content="http://ownerpv.github.io/assets/preview.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Telegram Bot - Glass Buttons">
-<meta name="twitter:description" content="Easily create inline glass buttons for Telegram bots.">
-<meta name="twitter:image" content="http://ownerpv.github.io/assets/preview.png">
+<!-- Hidden SEO Meta Tags -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Open-source Telegram bot for creating interactive Glass Buttons. Fully customizable and easy to integrate with Telegram API.">
+  <meta name="keywords" content="Glass Button Telegram Bot, Telegram Bot Button Glass, Inline Button Telegram Bot, Source Code Telegram Bot, Open Source Telegram Bot, Telegram API Webhook, BotFather Custom Keyboard">
+  <meta name="author" content="OwnerPC">
+  <meta property="og:title" content="Telegram Bot - Glass Buttons">
+  <meta property="og:description" content="Create stylish inline buttons with this powerful Telegram bot.">
+  <meta property="og:url" content="http://ownerpv.github.io">
+  <meta property="og:image" content="http://ownerpv.github.io/assets/preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Telegram Bot - Glass Buttons">
+  <meta name="twitter:description" content="Easily create inline glass buttons for Telegram bots.">
+  <meta name="twitter:image" content="http://ownerpv.github.io/assets/preview.png">
+</head>
