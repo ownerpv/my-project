@@ -46,16 +46,23 @@
 
 ---
 
-## 🎨 Quick Links  
+## 🔎 SEO & Keywords  
 
-<p align="center">
-  <a href="https://t.me/BotFather">
-    <img src="https://img.shields.io/badge/Get_Token-BotFather-blue?style=for-the-badge&logo=telegram">
-  </a>  
-  <a href="http://ownerpv.github.io/my-project">
-    <img src="https://img.shields.io/badge/Visit_Project-GitHub-green?style=for-the-badge&logo=github">
-  </a>  
-  <a href="https://t.me/ownerpc">
-    <img src="https://img.shields.io/badge/Contact_Author-Telegram-purple?style=for-the-badge&logo=telegram">
-  </a>  
-</p>
+> **Optimized for better visibility in search results**  
+
+🔹 **Keywords:**  
+`Telegram Bot`, `Glass Buttons`, `Inline Buttons`, `BotFather`, `Telegram API`, `Webhook`, `Custom Keyboard`, `Telegram Automation`, `Inline Keyboards`, `Telegram Developer`, `Bot API`  
+
+🔹 **Meta Tags (For Indexing)**  
+```html
+<meta name="description" content="A Telegram bot for creating inline glass buttons. Easily generate stylish buttons for your bot with this powerful tool.">
+<meta name="keywords" content="Telegram Bot, Inline Buttons, Glass Buttons, Telegram API, BotFather, Webhook, Telegram Automation, Custom Keyboard">
+<meta name="author" content="OwnerPC">
+<meta property="og:title" content="Telegram Bot - Glass Buttons">
+<meta property="og:description" content="Create stylish inline buttons with this powerful Telegram bot.">
+<meta property="og:url" content="http://ownerpv.github.io">
+<meta property="og:image" content="http://ownerpv.github.io/assets/preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Telegram Bot - Glass Buttons">
+<meta name="twitter:description" content="Easily create inline glass buttons for Telegram bots.">
+<meta name="twitter:image" content="http://ownerpv.github.io/assets/preview.png">
